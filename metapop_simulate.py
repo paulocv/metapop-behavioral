@@ -224,10 +224,6 @@ def execute_sim(i_ex):
 
     model.initialize_states(init_mode, init_data)
 
-    # TODO VERY IMPORTANT:
-    # Without this seed reset, simulations called at the same set of
-    # processes (from pathos) yield same results.
-    # The TODO here is to check this in my other projects that use multiprocess.
     np.random.seed()
 
     # -----------------------
