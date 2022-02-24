@@ -1,4 +1,4 @@
-# Epidemic simulation on metapopulation with behavioral responses
+# Epidemic simulation in metapopulations with behavioral responses
 Source code of the simulations used in the work: "Modeling the effects of social distancing on the large-scale spreading of diseases".
 
 Paper (Open Access): https://doi.org/10.1016/j.epidem.2022.100544
