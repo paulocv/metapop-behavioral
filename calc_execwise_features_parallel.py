@@ -6,9 +6,14 @@ measures.
 Produces metric files (.met) as outputs: files that contain the metrics of each execution (lines),
 for each node (columns).
 
+**Important**: the analysis toolbox module (nodewise_features_metapop) assumes networkx 2.x version. It will raise 
+errors if you try to run it on an environment with networkx 1.x, such as the one used for simulations.
+
 Usage
 -----
-TODO!
+Edit the parameters on main() function (at the end of this file). Call the code without arguments:
+
+> python calc_execwise_features_parallel.py
 
 
 
