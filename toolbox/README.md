@@ -1,7 +1,7 @@
 These modules were snapshotted from another repository (by the same owner): https://github.com/paulocv/my_tools
 
 # my_tools
-Personal tools that I use for my codes.
+Useful python tools for multiple purposes (file I/O, argument parsing, dataframes managing, plotting, etc.).
 
 * file_tools.py:
   Argv reading and checking. Configuration file reading and writing.
