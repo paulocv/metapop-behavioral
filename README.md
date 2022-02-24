@@ -66,3 +66,16 @@ We have additional scripts to post-process our outputs from simulations. These a
 The scripts are called without extra arguments. Please edit the inputs directly in the `main()` function of each script.
 
 
+## Metapopulation files
+
+The code uses two files to define a metapopulation: one with ".csv" extension and another with ".edgl" (edgelist).
+
+* The .csv file defines the initial number of individuals in each node. For networks in which nodes are placed in a planar space (such as the RGN used in our paper), it also contains the x and y coordinates of each node.
+
+* The .edgl file contains the links and link weights of the network. Each line consists of a recyprocal link: the first two columns are the ids of the linked nodes, and the third represents the weights $T_{ij}$, as explained in our paper.
+
+You can find the syntetic RGN used in our paper at networks/sample_network.csv and networks/sample_network.edgl.
+
+## Toolbox
+
+The simulations and data analysis use some functions of another auxiliary library, contained in the "toolbox" folder. This is a snapshot from a personal library of helper methods in Python, developed by the same author. You can check the up-to-date library here: https://github.com/paulocv/my_tools .
